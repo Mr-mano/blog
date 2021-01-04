@@ -1,0 +1,16 @@
+{
+    "require": {
+        "altorouter/altorouter": "1.2.0",
+        "symfony/var-dumper": "^5.2",
+        "filp/whoops": "2.3.1",
+        "fzaninotto/faker": "^1.9",
+        "vlucas/valitron": "1.4.5",
+        "intervention/image": "2.5"
+    },
+    "autoload": {
+        "files": ["src/function.php"],
+        "psr-4":{
+            "App\\": "src/"
+        }
+    }
+}
